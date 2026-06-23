@@ -21,3 +21,28 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+# Compiled class file
+*.class
+
+# Log file
+logs/
+*.log
+*.log.*.gz
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+# ignore all target directories and nested content
+target/
+
+generated-sources/
+
+# ignore the eclipse .settings directory and all children
+.settings/
+# ignore other eclipse files as these aspects are managed by the Maven pom.xml
+.classpath
+.project
