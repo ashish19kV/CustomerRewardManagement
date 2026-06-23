@@ -56,8 +56,8 @@ Password  : (leave empty)
 |---|---|---|---|
 | `GET` | `/api/rewards` | Reward summary for **all** customers | `200 OK` |
 | `GET` | `/api/rewards/{customerId}` | Reward summary for **one** customer | `200 OK` / `404` / `400` |
-| `GET` | `/api/rewards//date-range?startDate=yyyy-MM-dd&endDate=yyyy-MM-dd` |'201 Created' / Reward summary based on date range for **one** customer | `200 OK` / `404` / `400` |
-| `POST` | `/api/rewards/` | Creates a new customer with their transactions and calculates reward points. | `200 OK` / `404` / `400` |
+| `GET` | `/api/rewards//date-range?startDate=yyyy-MM-dd&endDate=yyyy-MM-dd` |'200 OK' / Reward summary based on date range for **one** customer | `200 OK` / `404` / `400` |
+| `POST` | `/api/rewards/` | Creates a new customer with their transactions and calculates reward points. | `201 Created` / `404` / `400` |
 
 
 ### Sample Response — `GET /api/rewards/1`
