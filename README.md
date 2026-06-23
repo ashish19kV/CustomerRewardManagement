@@ -38,10 +38,8 @@ A retailer awards points to customers based on each recorded purchase:
 
 | Resource        | URL                                          |
 |-----------------|----------------------------------------------|
-| Application     | http://localhost:8080/api                    |
 | H2 Console      | http://localhost:8080/api/h2-console         |
 | Swagger UI      | http://localhost:8080/api/swagger-ui.html    |
-| API Docs        | http://localhost:8080/api/v3/api-docs        |
 
 ### H2 Console Login
 ```
@@ -173,4 +171,3 @@ http://localhost:8080/swagger-ui/index.html
 - **Exception handling** — `CustomerNotFoundException`, `InvalidCustomerIdException` (null, zero, negative)
 - **Sort order** — monthly rewards sorted chronologically
 - **Invariant** — total points = sum of monthly points for every customer
-
