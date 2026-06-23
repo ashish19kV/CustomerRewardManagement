@@ -39,7 +39,7 @@ A retailer awards points to customers based on each recorded purchase:
 | Resource        | URL                                          |
 |-----------------|----------------------------------------------|
 | H2 Console      | http://localhost:8080/api/h2-console         |
-| Swagger UI      | http://localhost:8080/api/swagger-ui.html    |
+| Swagger UI      | http://localhost:8080/swagger-ui/index.html   |
 
 ### H2 Console Login
 ```
