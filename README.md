@@ -31,8 +31,6 @@ A retailer awards points to customers based on each recorded purchase:
 
 ---
 
-## Project Structure
-
 ```
 ### Access Points
 
